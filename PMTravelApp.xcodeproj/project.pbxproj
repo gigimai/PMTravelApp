@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3A12A3351BCBFC6F008FFEB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A3341BCBFC6F008FFEB9 /* AppDelegate.swift */; };
-		3A12A3371BCBFC6F008FFEB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A3361BCBFC6F008FFEB9 /* ViewController.swift */; };
+		3A12A3371BCBFC6F008FFEB9 /* PMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A3361BCBFC6F008FFEB9 /* PMLoginViewController.swift */; };
 		3A12A33A1BCBFC6F008FFEB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A12A3381BCBFC6F008FFEB9 /* Main.storyboard */; };
 		3A12A33D1BCBFC6F008FFEB9 /* PMTravelApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A33B1BCBFC6F008FFEB9 /* PMTravelApp.xcdatamodeld */; };
 		3A12A33F1BCBFC6F008FFEB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A12A33E1BCBFC6F008FFEB9 /* Assets.xcassets */; };
 		3A12A3421BCBFC6F008FFEB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A12A3401BCBFC6F008FFEB9 /* LaunchScreen.storyboard */; };
 		3A12A34D1BCBFC6F008FFEB9 /* PMTravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A34C1BCBFC6F008FFEB9 /* PMTravelAppTests.swift */; };
 		3A12A3581BCBFC6F008FFEB9 /* PMTravelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A3571BCBFC6F008FFEB9 /* PMTravelAppUITests.swift */; };
+		3A12A3691BCBFFC3008FFEB9 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A12A3681BCBFFC3008FFEB9 /* FBSDKCoreKit.framework */; };
+		3A12A36B1BCC05AA008FFEB9 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A12A36A1BCC05AA008FFEB9 /* FBSDKLoginKit.framework */; };
+		3A12A36F1BCC2FD1008FFEB9 /* PMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A36E1BCC2FD1008FFEB9 /* PMHomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3A12A3711BCC3954008FFEB9 /* UICustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A3701BCC3954008FFEB9 /* UICustomClass.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		3A12A3311BCBFC6F008FFEB9 /* PMTravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PMTravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A12A3341BCBFC6F008FFEB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A12A3361BCBFC6F008FFEB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A12A3361BCBFC6F008FFEB9 /* PMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMLoginViewController.swift; sourceTree = "<group>"; };
 		3A12A3391BCBFC6F008FFEB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A12A33C1BCBFC6F008FFEB9 /* PMTravelApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PMTravelApp.xcdatamodel; sourceTree = "<group>"; };
 		3A12A33E1BCBFC6F008FFEB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,11 @@
 		3A12A3531BCBFC6F008FFEB9 /* PMTravelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMTravelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A12A3571BCBFC6F008FFEB9 /* PMTravelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMTravelAppUITests.swift; sourceTree = "<group>"; };
 		3A12A3591BCBFC6F008FFEB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A12A3651BCBFCD6008FFEB9 /* PMTravelApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMTravelApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A12A3681BCBFFC3008FFEB9 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3A12A36A1BCC05AA008FFEB9 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3A12A36E1BCC2FD1008FFEB9 /* PMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMHomeViewController.swift; sourceTree = "<group>"; };
+		3A12A3701BCC3954008FFEB9 /* UICustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A12A36B1BCC05AA008FFEB9 /* FBSDKLoginKit.framework in Frameworks */,
+				3A12A3691BCBFFC3008FFEB9 /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +90,8 @@
 		3A12A3281BCBFC6F008FFEB9 = {
 			isa = PBXGroup;
 			children = (
+				3A12A36A1BCC05AA008FFEB9 /* FBSDKLoginKit.framework */,
+				3A12A3681BCBFFC3008FFEB9 /* FBSDKCoreKit.framework */,
 				3A12A3331BCBFC6F008FFEB9 /* PMTravelApp */,
 				3A12A34B1BCBFC6F008FFEB9 /* PMTravelAppTests */,
 				3A12A3561BCBFC6F008FFEB9 /* PMTravelAppUITests */,
@@ -100,12 +113,15 @@
 			isa = PBXGroup;
 			children = (
 				3A12A3341BCBFC6F008FFEB9 /* AppDelegate.swift */,
-				3A12A3361BCBFC6F008FFEB9 /* ViewController.swift */,
+				3A12A3361BCBFC6F008FFEB9 /* PMLoginViewController.swift */,
 				3A12A3381BCBFC6F008FFEB9 /* Main.storyboard */,
 				3A12A33E1BCBFC6F008FFEB9 /* Assets.xcassets */,
 				3A12A3401BCBFC6F008FFEB9 /* LaunchScreen.storyboard */,
 				3A12A3431BCBFC6F008FFEB9 /* Info.plist */,
 				3A12A33B1BCBFC6F008FFEB9 /* PMTravelApp.xcdatamodeld */,
+				3A12A3651BCBFCD6008FFEB9 /* PMTravelApp-Bridging-Header.h */,
+				3A12A36E1BCC2FD1008FFEB9 /* PMHomeViewController.swift */,
+				3A12A3701BCC3954008FFEB9 /* UICustomClass.swift */,
 			);
 			path = PMTravelApp;
 			sourceTree = "<group>";
@@ -258,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A12A3371BCBFC6F008FFEB9 /* ViewController.swift in Sources */,
+				3A12A3371BCBFC6F008FFEB9 /* PMLoginViewController.swift in Sources */,
 				3A12A33D1BCBFC6F008FFEB9 /* PMTravelApp.xcdatamodeld in Sources */,
+				3A12A36F1BCC2FD1008FFEB9 /* PMHomeViewController.swift in Sources */,
+				3A12A3711BCC3954008FFEB9 /* UICustomClass.swift in Sources */,
 				3A12A3351BCBFC6F008FFEB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,10 +420,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}/lib/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PMTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bappvn.PMTravelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PMTravelApp/PMTravelApp-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -413,10 +436,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}/lib/**",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PMTravelApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bappvn.PMTravelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PMTravelApp/PMTravelApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +515,7 @@
 				3A12A35E1BCBFC6F008FFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A12A35F1BCBFC6F008FFEB9 /* Build configuration list for PBXNativeTarget "PMTravelAppTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +524,7 @@
 				3A12A3611BCBFC6F008FFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A12A3621BCBFC6F008FFEB9 /* Build configuration list for PBXNativeTarget "PMTravelAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +533,7 @@
 				3A12A3641BCBFC6F008FFEB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
